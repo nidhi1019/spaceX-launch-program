@@ -5,12 +5,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 First download the source code from the repo or clone it from `master` branch using:
 
-```git clone https://github.com/nidhi1019/spaceX-launch-program.git 
+```bash
+git clone https://github.com/nidhi1019/spaceX-launch-program.git 
 ```
 
 install the dependencies inside the source code folder using :
 
-```npm i 
+```bash
+ npm i 
 ```
 
 run the development server:
