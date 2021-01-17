@@ -1,0 +1,42 @@
+.card {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    flex-basis: 22em;
+    /* width: 40%; */
+}
+.card > div {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #DCDCDC;
+    text-align: center;
+    border-radius: 5px;
+}
+.card > strong {
+    color: #3c468e;
+}
+.card  dl dt span, .card dl dt dd , .card ul li{
+    color: #a2a8c6;
+}
+.card ul {
+    margin: 0;
+}
+.card dl dt {
+    line-height: 2rem;
+}
+.responsiveImg {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 700px) {
+    .card {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media (min-width: 1025px) {
+    .card {
+        flex-basis: 17em;
+    }
+}
