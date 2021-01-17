@@ -20,8 +20,8 @@ const Card = (props) => {
                     </ul>
                 </dd>
                 <dt><strong>Launch Year:</strong> <span>{props.details.launch_year}</span></dt>
-                <dt><strong>Successfull Launch:</strong> <span>{`${props.details.launch_success}`}</span></dt>
-                <dt><strong>Successfull Landing:</strong> <span>'launch_landing not found'</span></dt>
+                <dt><strong>Successful Launch:</strong> <span>{`${props.details.launch_success}`}</span></dt>
+                <dt><strong>Successful Landing:</strong> <span>'launch_landing not found'</span></dt>
             </dl>
         </div>
     )

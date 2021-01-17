@@ -111,13 +111,13 @@ const SpaceXData = (props) => {
                 <StaticFilters filters={filters.launch_years} onFilterClick={onApplyFilters} name='year'></StaticFilters>
               </div>
 
-              <span>Successfull Launch</span>
+              <span>Successful Launch</span>
               <hr />
               <div>
                 <StaticFilters filters={filters.launch_success} onFilterClick={onApplyFilters} name='launch'></StaticFilters>
               </div>
 
-              <span>Successfull Landing</span>
+              <span>Successful Landing</span>
               <hr />
               <div>
                 <StaticFilters filters={filters.launch_landing} onFilterClick={onApplyFilters} name='landing'></StaticFilters>
@@ -131,7 +131,7 @@ const SpaceXData = (props) => {
       </main>
 
       <footer className={styles.footer}>
-        Devleoped By: Nidhi Sengar
+        <strong>Developed by: </strong> Nidhi Sengar
         </footer>
     </div>
   )
