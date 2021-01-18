@@ -1,3 +1,7 @@
+## Important Note
+
+For `successful landing` text in spaceX launch program cards , some records have its value as `null`. This value has been displayed as it is. It shows that it is neither false nor true. Because API itself does not consider it as true or false and on apply filters, records having `land_success` as null get elimited from the filtered record by API.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## View the DEMO : (https://space-launch-program.vercel.app/)
