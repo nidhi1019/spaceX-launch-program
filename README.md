@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## View the DEMO : (https://space-launch-program-gqxd8pfyf.vercel.app/) or (https://space-launch-program.vercel.app/)
+## View the DEMO : (https://space-launch-program.vercel.app/)
 
 ## Getting Started
 First download the source code from the repo or clone it from `master` branch using:
