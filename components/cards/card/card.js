@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import styles from './card.module.css';
 const Card = (props) => {
@@ -21,7 +21,8 @@ const Card = (props) => {
                 </dd>
                 <dt><strong>Launch Year:</strong> <span>{props.details.launch_year}</span></dt>
                 <dt><strong>Successful Launch:</strong> <span>{`${props.details.launch_success}`}</span></dt>
-                <dt><strong>Successful Landing:</strong> <span>'launch_landing not found'</span></dt>
+                <dt><strong>Successful Landing:</strong> <span>{props.details.rocket.first_stage && props.details.rocket.first_stage.cores.length > 0 ?
+                `${props.details.rocket.first_stage.cores[0].land_success}` : ''}</span></dt>
             </dl>
         </div>
     )
