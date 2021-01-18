@@ -107,13 +107,13 @@ const SpaceXData = (props) => {
               </div>
               <span>Launch Year</span>
               <hr />
-              <div>
+              <div style={{marginBottom: '10px'}}>
                 <StaticFilters filters={filters.launch_years} onFilterClick={onApplyFilters} name='year'></StaticFilters>
               </div>
 
               <span>Successful Launch</span>
               <hr />
-              <div>
+              <div style={{marginBottom: '10px'}}>
                 <StaticFilters filters={filters.launch_success} onFilterClick={onApplyFilters} name='launch'></StaticFilters>
               </div>
 
